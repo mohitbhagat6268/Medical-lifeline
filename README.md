@@ -38,6 +38,9 @@
 * **Strict Role Separation:** Dedicated portals and route guards for **Patients**, **Volunteers**, and **Hospitals**.
 * **Dynamic Medical Profiles & Notifications:** Firestore-backed patient records and a role-aware top-bar Notification Center with unread indicators.
 
+### 🔗 Deployed Link 
+* **Link:** medicallifeline.vercel.app
+
 ---
 
 ## 🏗️ System Architecture
