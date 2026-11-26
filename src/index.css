@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+@theme {
+  --color-primary: #2563EB;
+  --color-secondary: #0D9488;
+  --color-bg-app: #F8FAFC;
+  --color-surface: #FFFFFF;
+  --color-text-main: #0F172A;
+  --color-text-muted: #64748B;
+  --color-emergency: #EF4444;
+  --color-success: #16A34A;
+  --color-border-subtle: #E2E8F0;
+
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-display: "Plus Jakarta Sans", "Inter", sans-serif;
+}
+
+body {
+  background-color: var(--color-bg-app);
+  color: var(--color-text-main);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
